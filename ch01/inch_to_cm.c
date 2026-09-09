@@ -1,3 +1,7 @@
+/* 功能:英寸转厘米换算
+   作者:wbx
+   日期:2026-09-09 */
+
 #include <stdio.h>
 int main() {
     float inch;   //声明英寸单位
