@@ -9,7 +9,7 @@ void array_add(int a[], int b[], int sum[], int x);
 int main(void){
    int i_array1[4] = {2, 4, 5, 8};
    int i_array2[4] = {1, 0, 4, 6};
-   int sum[] = {};
+   int sum[] = {0};
 
    array_add(i_array1, i_array2, sum, 4);
    
