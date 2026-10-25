@@ -14,7 +14,7 @@ int main(void){
    int num = 0;
    char ** p;  
    //char *a[SIZE] 是指针数组，一堆指针排成一行，每个指向各自的数据，指向指针的指针 char ** p 也是指针数组
-   //char (*a)[SIZE] 是数组指针，只有一个指着，指向 SIZE 个字符的连续内存，内存里装的是字符不是指针
+   //char (*a)[SIZE] 是数组指针，只有一个指针，指向 SIZE 个字符的连续内存，内存里装的是字符不是指针
 
    printf("How many words do you wish to enter?");
    scanf("%d",&num);
